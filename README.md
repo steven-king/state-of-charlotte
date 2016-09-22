@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # news-starter-template
 Bootstrap news starter template for breaking news class assignment
-
-
 
 ##News Considerations
 <ul>
@@ -27,7 +24,3 @@ Bootstrap news starter template for breaking news class assignment
   <li>Sports, Entertainment, Style</li>
 
 </ul>
-=======
-# state-of-charlotte
-State of Charlotte
->>>>>>> 2d804f2e054a8d32cb348c69477b0fab67e85e08
