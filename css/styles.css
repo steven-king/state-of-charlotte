@@ -1,0 +1,64 @@
+/*general content */
+
+
+body {
+    margin-top: 50px;
+}
+
+/*Nav Bar */
+
+.tab {
+    border: solid thin;
+    text-align: center;
+    background: #ccc;
+    border-radius: 4px;
+    padding: 0px 50px 0px 50px;
+    /*clear:both;*/
+
+}
+
+#navbar {
+    margin: auto;
+    text-align: center;
+    /*clear:both;*/
+
+}
+
+.fix-cont{
+    margin-right:0;
+    clear:both;
+} 
+
+
+/*media queries */
+
+/*@media only screen and (max-width: 980px) {
+    .tab {
+    border: solid thin;
+    text-align: center;
+    background: #ccc;
+    border-radius: 4px;
+    padding: 0px 30px 0px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+
+
+
+}
+
+@media only screen and (max-width: 993px) {
+    .tab {
+    border: solid thin;
+    text-align: center;
+    background: #ccc;
+    border-radius: 4px;
+    padding: 0px 20px 0px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+}*/
+

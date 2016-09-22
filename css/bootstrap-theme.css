@@ -19,6 +19,7 @@ html {
 }
 body {
   margin: 0;
+  padding-top: 40px;
 }
 article,
 aside,
@@ -1106,7 +1107,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #008cba;
+  color: #ccc;
   text-decoration: underline;
 }
 a:focus {
@@ -4593,8 +4594,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #008cba;
+  background-color: grey;
   border-color: #006687;
+  padding: 30px;
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -4609,11 +4611,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
+
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #006687;
+  background-color: grey;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
