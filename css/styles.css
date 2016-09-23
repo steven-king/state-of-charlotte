@@ -27,8 +27,22 @@ body {
 .fix-cont{
     margin-right:0;
     clear:both;
-} 
+}
 
+/*Header*/
+
+.jumbotron {
+    background-image: url(img/charlotte_header.png);
+
+}
+
+
+/*Facts v. Disputed*/
+
+.factsvdisputed iframe {
+    width: 100%;
+    height: 250px;
+}
 
 /*media queries */
 
