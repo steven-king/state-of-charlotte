@@ -32,7 +32,9 @@ body {
 /*Header*/
 
 .jumbotron {
-    background-image: url(img/charlotte_header.png);
+    background-image: url("../img/webHeader.png");
+    background-size: cover;
+    color: white;
 
 }
 
