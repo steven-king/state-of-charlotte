@@ -3,26 +3,29 @@ body {
 }
 
 button.accordion {
-    background-color: #eee;
+    background-color:#fff;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+	border: solid thin #ccc;
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: #008cba;
+	color: #fff;
+	border: solid thin #ccc;
 }
 
 div.panel {
     padding: 0 18px;
     display: none;
     background-color: white;
+	
 }
 
 div.panel.show {
@@ -47,8 +50,12 @@ thead {
 
 
 .scrollable {
-	height: 250px;
-	max-width: 1000px; 
+	height: 700px;
 	overflow-y: auto;
 }
 
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #008cba;
+  background-color: #ffffff;
+}
